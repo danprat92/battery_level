@@ -64,7 +64,7 @@ class _BatteryWidgetState extends State<BatteryWidget> {
               .center, // Align children vertically in the center
           children: [
             Text('Battery Level: $_level%'),
-            Text('Time taken: $_timeTaken%'),
+            Text('Time taken: $_timeTaken milliseconds'),
             Text('Status: $_batteryState'),
           ],
         ),
